@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="../jquery/jquery-3.6.0.min.js"></script>
+    <script src="main.js" async></script>
+    <title>Temperature Converter</title>
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <div class="box from-container">
+                <input type="number" class="from-value" name="input_value" id="input_value" autofocus>
+                <select name="type_value" class="from-select" id="type_value">
+                    <option value="celcius">Celcius(&deg;C)</option>
+                    <option value="fahrenheit">Fahrenheit(&deg;F)</option>
+                    <option value="kelvin">Kelvin(K)</option>
+                </select>
+            </div>
+            <div class="box">=</div>
+            <div class="box to-container">
+                <input type="number" class="to-value" name="input_value" id="input_value">
+                <select name="type_value" class="to-select" id="type_value">
+                    <option value="celcius">Celcius(&deg;C)</option>
+                    <option value="fahrenheit">Fahrenheit(&deg;F)</option>
+                    <option value="kelvin">Kelvin(K)</option>
+                </select>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
